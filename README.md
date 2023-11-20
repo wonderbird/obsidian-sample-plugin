@@ -21,9 +21,11 @@ This sample plugin demonstrates some of the basic functionality the plugin API c
 
 ## Acknowledgements
 
-Thanks to the authors of the [Original Obsidian Sample Plugin](https://github.com/obsidianmd/obsidian-sample-plugin).
+Many thanks ❤️ to
 
-Many thanks to [JetBrains](https://www.jetbrains.com/?from=generator-kata-net-core) who provide an [Open Source License](https://www.jetbrains.com/community/opensource/) for my projects ❤️.
+- the authors of the [Original Obsidian Sample Plugin](https://github.com/obsidianmd/obsidian-sample-plugin)
+- [hjonasson](https://github.com/hjonasson) for the [testing setup pull request](https://github.com/obsidianmd/obsidian-sample-plugin/pull/79)
+- [JetBrains](https://www.jetbrains.com/?from=generator-kata-net-core) who provide an [Open Source License](https://www.jetbrains.com/community/opensource/) for my projects
 
 ## First time developing plugins?
 
