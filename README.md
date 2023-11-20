@@ -14,6 +14,16 @@ This sample plugin demonstrates some of the basic functionality the plugin API c
 - Registers a global click event and output 'click' to the console.
 - Registers a global interval which logs 'setInterval' to the console.
 
+## Wonderbird's modifications
+
+- Selected pull requests to the original repo are available in the `dev` branch of this repository
+
+## Acknowledgements
+
+Thanks to the authors of the [Original Obsidian Sample Plugin](https://github.com/obsidianmd/obsidian-sample-plugin).
+
+Many thanks to [JetBrains](https://www.jetbrains.com/?from=generator-kata-net-core) who provide an [Open Source License](https://www.jetbrains.com/community/opensource/) for my projects ❤️.
+
 ## First time developing plugins?
 
 Quick starting guide for new plugin devs:
