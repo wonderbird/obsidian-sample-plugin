@@ -57,10 +57,10 @@ Quick starting guide for new plugin devs:
 
 ### Automatically
 
-In [.github/release.yml](.github/workflows/release.yml) replace "my-plugin" with the name of your plugin on the following line,
+In [.github/release.yml](.github/workflows/release.yml) replace "sample-plugin" with the name of your plugin on the following line,
 
 ```yml
-  PLUGIN_NAME: my-plugin
+PLUGIN_NAME: sample-plugin
 ```
 
 After updating your plugin name, you can create and push a tag. For example,
@@ -71,11 +71,12 @@ git push origin 1.2.3
 ```
 
 Then [release.yml](.github/workflows/release.yml) will automatically:
+
 1. Update `manifest.json`, `package.json`, and `package-lock.json` with the version from your tag.
 2. Commit the updates to your repo (that you will need to pull down locally before making further changes)
-3. Create a new release for your tag in your [repo's Releases](https://github.com/obsidianmd/obsidian-sample-plugin/releases).
+3. Create a new release for your tag in your [repo's Releases](https://github.com/wonderbird/obsidian-sample-plugin/releases).
 
-Afterwards, you should manually update the Release's notes detailing your changes, and update your `versions.json` file with the minimum version of Obsidian your plugin supports.
+Afterward, you should manually update the release notes detailing your changes, and update your `versions.json` file with the minimum version of Obsidian your plugin supports.
 
 **Note:** Tag names must be in the format `x.y.z` without prefixing a `v`, for instance `1.0.0` is valid, but `v1.0.0` is not.
 
